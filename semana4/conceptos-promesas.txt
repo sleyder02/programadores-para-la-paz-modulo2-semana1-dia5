@@ -8,40 +8,56 @@ Responde con tus propias palabras.
 
 1. ¿Qué es una promesa en JavaScript?
 
-Respuesta:
+Respuesta:Una promesa en JavaScript es un objeto que representa el resultado futuro de una operación asíncrona.
+Es decir:
+una tarea que puede tardar un tiempo en completarse.
 
 2. ¿Por qué fetch devuelve una promesa?
 
-Respuesta:
+Respuesta:fetch() devuelve una promesa porque la comunicación con un servidor toma tiempo y no ocurre instantáneamente.
+
+Mientras el servidor responde, JavaScript puede seguir ejecutando otras tareas sin bloquear la página.
+
+Por eso fetch() trabaja de forma asíncrona.
 
 3. ¿Qué significa esperar una respuesta del servidor?
 
-Respuesta:
+Respuesta:Esperar una respuesta del servidor significa que el cliente (la página web o aplicación) envía una solicitud y debe esperar a que
+el servidor procese esa petición y devuelva una respuesta.
+Ese proceso tarda unos milisegundos o segundos, por eso JavaScript usa promesas y operaciones asíncronas.
+“Esperar una respuesta del servidor” es esperar que el servidor reciba, procese y devuelva información al cliente.
 
 4. ¿Qué hace .then()?
 
-Respuesta:
+Respuesta:then()  se ejecuta si todo sale bien
 
 5. ¿Qué hace .catch()?
 
-Respuesta:
+Respuesta:catch()  captura errores
 
 6. ¿Qué diferencia hay entre una respuesta exitosa y un error?
 
-Respuesta:
+Respuesta:Una respuesta exitosa significa que la solicitud al servidor se realizó correctamente y los datos fueron obtenidos o guardados sin problemas.
+
+Un error significa que ocurrió un problema durante la petición o el procesamiento de la información.
 
 7. ¿Qué hace respuesta.json() en esta práctica?
 
-Respuesta:
+Respuesta:El servidor normalmente envía datos en formato JSON (texto), y json() los transforma para poder leerlos y manipularlos.
 
 8. ¿Qué pasa si el servidor no está funcionando?
 
-Respuesta:
+Respuesta: no ejecuta la accion, y no realizara ninguna accion GET o POST
 
 9. ¿Por qué una plataforma comunitaria debe mostrar errores comprensibles?
 
-Respuesta:
+Respuesta: Si la plataforma muestra estos errores esta siendo facil de entender que error hay en 
+dicha informacion al ser publicada, es decir revisar antes de compartir.
 
 10. ¿Cómo se relacionan promesas, fetch y API?
 
-Respuesta:
+Respuesta:Las promesas, fetch y las API se relacionan porque trabajan juntos para permitir la comunicación entre una página web y un servidor.
+Relaciòn:
+fetch() se usa para hacer solicitudes a una API.
+La API recibe la petición y devuelve información.
+fetch() devuelve una promesa porque la respuesta tarda un tiempo en llegar.

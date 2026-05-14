@@ -1,8 +1,8 @@
 Bitácora de pruebas de API – Módulo 2 Semana 1 Día 5
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: leider david ramos caro
+Fecha:13 de mayo de 2026
+Nombre de la rama:leider_ramos
 
 Prueba 1: Consultar propuestas
 
@@ -37,7 +37,7 @@ La API guarda la propuesta y responde con mensaje de confirmación.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta: si devuelve el mesaje de confirmacion
 
 Prueba 3: Enviar sin título
 
@@ -47,7 +47,7 @@ La API responde que falta el título.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta: no, sale error 404 ruta no encontrada
 
 Prueba 4: Enviar sin mensaje
 
@@ -57,9 +57,9 @@ La API responde que falta el mensaje.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta: si dice que no se puede enviar sin titulo claro
 
 Conclusión:
 ¿Qué prueba te ayudó más a entender el funcionamiento de la API?
 
-Respuesta:
+Respuesta: enviar sin mensaje

@@ -1,16 +1,28 @@
 [
-    {
-      "id": 1,
-      "titulo": "Canal de información verificada",
-      "mensaje": "Crear un canal comunitario para publicar avisos con fuente, fecha y responsable.",
-      "categoria": "prevencion-desinformacion",
-      "audiencia": "comunidad general",
-      "tono": "informativo",
-      "llamadoAccion": "Consultar únicamente los avisos publicados por canales verificados.",
-      "autor": "Equipo comunitario",
-      "estado": "recibida",
-      "revisionEditorial": "pendiente",
-      "fecha": "2026-04-26T00:00:00.000Z"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "titulo": "Canal de información verificada",
+    "mensaje": "Crear un canal comunitario para publicar avisos con fuente, fecha y responsable.",
+    "categoria": "prevencion-desinformacion",
+    "audiencia": "comunidad general",
+    "tono": "informativo",
+    "llamadoAccion": "Consultar únicamente los avisos publicados por canales verificados.",
+    "autor": "Equipo comunitario",
+    "estado": "recibida",
+    "revisionEditorial": "pendiente",
+    "fecha": "2026-04-26T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "titulo": "Avisos claros para la comunidad",
+    "mensaje": "Mañana 14 de mayo de 2026, reunion 3:pm parque villa aronia",
+    "categoria": "participacion-ciudadana",
+    "audiencia": "comunidad general",
+    "tono": "convocante",
+    "llamadoAccion": "Consulta la información oficial antes de compartir mensajes en grupos comunitarios.",
+    "autor": "general",
+    "estado": "recibida",
+    "revisionEditorial": "pendiente",
+    "fecha": "2026-05-14T03:29:11.264Z"
+  }
+]
